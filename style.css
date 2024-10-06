@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    border: none;
+    font-family: "Ubuntu";}
+
+:root{
+    
+ /*Primary*/
+
+--marine-blue: #02295a;
+--purplish-blue: #473dff;
+--pastel-blue: #adbeff;
+--light-blue: #bfe2fd;
+--strawberry-red: #ed3548;
+/* Neutral*/
+
+--cool-gray: #9699ab;
+--light-gray: #d6d9e6;
+--magnolia: #f0f6ff;
+--alabaster: #fafbff;
+--white: #ffffff;
+}
+
+/* Pagina Principala*/
+
+.button-page{
+    background-color: var(--marine-blue);
+    color: var(--white);
+
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+
+    width: 30px; 
+    height: 30px;
+}
+
+.background-image{
+    background-image: url('');
+}
+
+.first-section-container{
+    display: flex;
+    gap: 16px;
+}
+
+.personal-data{
+    display: inline-block;
+    gap: 16px;
+}
+
+.input-container {
+
+    margin-top: 16px;
+    border: 1px solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    gap: 16px;
+  }
+
+.secound-button{
+    margin-top: 24px;
+
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--marine-blue);
+    color: var(--white);
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    border-radius: 8px;
+    cursor: pointer;
+
+    font-size: 16px;
+
+    border: black;
+}
+
+/* Primul card*/
+
+.second-section-container{
+    display: none;
+}
